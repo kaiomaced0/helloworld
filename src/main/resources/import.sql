@@ -3,3 +3,7 @@
 -- insert into myentity (id, field) values(nextval('hibernate_sequence'), 'field-1');
 -- insert into myentity (id, field) values(nextval('hibernate_sequence'), 'field-2');
 -- insert into myentity (id, field) values(nextval('hibernate_sequence'), 'field-3');
+
+insert into usuario (id, nome, login, pass) values (nextval('hibernate_sequence'), 'joao', 'jj', 'j123');
+insert into usuario (id, nome, login, pass) values (nextval('hibernate_sequence'), 'kaio', 'kk', 'k123');
+insert into usuario (id, nome, login, pass) values (nextval('hibernate_sequence'), 'eliez', 'ee', 'e123');
